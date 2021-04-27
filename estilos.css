@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+div.row div{
+    width: 35px;
+    height: 35px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+}
+div.brick{
+    background-image: url("./img/brick.png");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-color: brown;
+}
+div.coin{
+    background-image: url("./img/coin.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px 25px;
+}
+div.mario{
+    background-image: url("./img/mario.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+}
